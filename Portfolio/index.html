@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio Website Boeken</title>
+  <link rel="stylesheet" href="eerste.css">
+</head>
+
+<body class="bg-dark">
+  <div id="shelf">
+    <!-- Book 1: Over Mij -->
+    <div class="book-bg overmij">
+      <div class="book flex-column">
+        <h5 style="margin-left: 0px; line-height:10%">Demi Fahmi</h5>
+        <h1 style="margin-left: 45px; line-height: 1%">Over Mij</h1>
+      </div>
+    </div>
+    <!-- Book 2: Contact-->
+    <div class='book-bg contact'>
+      <div class='book'>
+        <h1>Contact</h1>
+        <div class='contents'>
+        </div>
+      </div>
+    </div>
+    <!-- Book 3: Mijn projecten -->
+    <div class='book-bg projecten'>
+      <div class='book'>
+        <h3>Mijn projecten</h3>
+      </div>
+    </div>
+    <!-- Book 4:  -->
+    <div class='book-bg landscape'>
+      <div class='book flex-column'>
+        <h5 style='margin-left: 0px; margin-top: -27%; line-height:10%'>Test</h5>
+        <h1 style='margin-left: 45px; line-height: 1%'>Test</h1>
+      </div>
+    </div>
+    <!-- Book 5:  -->
+    <div class='book-bg writing'>
+      <div class='book'>
+        <h3>Test</h3>
+        <h4> Test</h4>
+      </div>
+    </div>
+    <!-- Book 6: -->
+    <div class='book-bg web'>
+      <div class='book'>
+        <h1>Test</h1>
+        <h3> 1.0</h3>
+    </div>
+  </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+  document.querySelector(".book-bg.overmij").onclick = function() {
+      window.location.href = "eerste.html";
+  };
+
+  document.querySelector(".book-bg.contact").onclick = function() {
+      window.location.href = "tweede.html";
+  };
+
+  document.querySelector(".book-bg.projecten").onclick = function() {
+      window.location.href = "derde.html";
+  };
+
+  document.querySelector("").onclick = function() {
+      window.location.href = "vierde.html";
+  };
+
+  document.querySelector("").onclick = function() {
+      window.location.href = "vijfde.html";
+  };
+
+  document.querySelector("").onclick = function() {
+      window.location.href = "zesde.html";
+  };
+</script>
+
+</body>
+</html>

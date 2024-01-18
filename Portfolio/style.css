@@ -1,0 +1,176 @@
+.body, html {
+  background-color: #212121;
+}
+
+#shelf {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+  }
+  
+  /* BOOK BINDINGS */
+  .book-bg {
+    overflow: hidden;
+    height: 32rem;
+    margin: 2px;
+    cursor: pointer;
+    transition: margin 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
+      transform 0.3s ease-in-out;
+    filter: grayscale(25%);
+    border-radius: 4px;
+    background: grey;
+    box-shadow: 0 0.5rem 1rem 0rem rgba(0, 0, 0, 0.4);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-image: linear-gradient(
+      to right,
+      #333,
+      #333 15%,
+      antiquewhite 30%,
+      antiquewhite 70%,
+      #333 85%,
+      #333
+    );
+    border-image-slice: 1;
+    order: 200;
+  }
+  .book-bg:hover {
+    box-shadow: 0 0.5rem 3rem -0.5rem rgba(0, 0, 0, 0.4);
+    z-index: 10;
+    margin-top: -15px;
+    transform: scale(1.03, 1.03);
+  }
+  /* END BOOK BINDINGS */
+  
+  /* BOOK WIDTHS */
+  .overmij{
+    width: 6rem;
+  }
+  .contact {
+    width: 5rem;
+  }
+  .projecten{
+    width: 5rem;
+  }
+  .landscape {
+    width: 6rem;
+  }
+  .writing {
+    width: 4rem;
+  }
+  .web {
+    width: 5rem;
+  }
+  /* END BOOK WIDTHS */
+  
+  
+  /* DEFAULT BOOK ATTRIBUTES */
+  .book {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    box-shadow: inset -0.35rem 0 0.5rem rgba(0, 0, 0, 0.4),
+      inset 0.35rem 0 0.5rem rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+    writing-mode: vertical-rl;
+  }
+  
+  /* END DEFAULT BOOK ATTRIBUTES */
+  
+  /* OVERMIJ DESIGN */
+  .overmij .book {
+    align-items: center;
+    background: radial-gradient(
+        ellipse at top,
+        rgba(0, 0, 0, 0.35),
+        rgba(0, 0, 0, 0.75)
+      ),
+      radial-gradient(ellipse at bottom, rgba(70, 70, 70, 0.5), transparent);
+    font-family: "Unica One", cursive;
+    color: darkorange;
+  }
+  /* OVERMIJ DESIGN */
+  
+  /* CONTACT DESIGN */
+  .contact .book {
+    background: radial-gradient(
+        ellipse at top,
+        rgba(50, 10, 87, 0.55),
+        rgba(0, 0, 0, 0.75)
+      ),
+      radial-gradient(ellipse at bottom, rgba(70, 70, 70, 0.5), transparent);
+    font-family: "Smooch Sans", sans-serif;
+    color: rgb(221, 206, 206);
+  }
+  /* END CONTACT DESIGN */
+  
+  /* PROJECTEN DESIGN */
+  .projecten .book {
+    background: radial-gradient(
+        ellipse at top,
+        rgba(189, 147, 189, 0.55),
+        rgba(0, 0, 0, 0.85)
+      ),
+      radial-gradient(ellipse at bottom, rgba(185, 154, 154, 0.5), transparent);
+    font-family: "Nothing You Could Do", cursive;
+    color: #212121;
+  }
+  /* END PROJECTEN DESIGN */
+  
+  /* LANDSCAPE DESIGN */
+  .landscape .book {
+    background: radial-gradient(
+        ellipse at top,
+        rgba(2, 95, 18, 0.55),
+        rgba(0, 0, 0, 0.75)
+      ),
+      radial-gradient(ellipse at bottom, rgba(70, 70, 70, 0.5), transparent);
+    font-family: "Fredericka the Great", cursive;
+    color: rgb(247, 229, 192);
+  }
+  /* END LANDSCAPE DESIGN */
+  
+  /* CREATIVE WRITING */
+  .writing .book {
+    background: radial-gradient(
+        ellipse at top,
+        rgba(94, 15, 6, 0.76),
+        rgba(0, 0, 0, 0.75)
+      ),
+      radial-gradient(ellipse at bottom, rgba(70, 70, 70, 0.5), transparent);
+    font-family: "Lora", serif;
+    color: rgb(216, 191, 191);
+  }
+  /* END CREATIVE WRITING */
+  
+  /* WEB DESIGN */
+  .web .book {
+    background: radial-gradient(
+        ellipse at top,
+        rgba(255, 255, 255, 0.63),
+        rgba(0, 0, 0, 0.75)
+      ),
+      radial-gradient(ellipse at bottom, rgba(70, 70, 70, 0.5), transparent);
+    font-family: "Inconsolata", monospace;
+    color: #333;
+  }
+  /* END WEB DESIGN */
+  
+  /* BACK ARROW */
+  #back svg {
+    position: absolute;
+    border: none;
+    width: 2rem;
+    right: 0.25rem;
+    top: 0.125rem;
+    z-index: 10;
+    opacity: 85%;
+    filter: drop-shadow(0px 0px 2px black);
+  }
+  #back svg:hover {
+    opacity: 100%;
+    filter: drop-shadow(0px 0px 2px whitesmoke);
+  }
+  /* BACK ARROW */
+  
