@@ -88,7 +88,7 @@
       ),
       radial-gradient(ellipse at bottom, rgba(70, 70, 70, 0.5), transparent);
     font-family: "Unica One", cursive;
-    color: darkorange;
+    color: rgb(188, 183, 177);
   }
   /* OVERMIJ DESIGN */
   
@@ -96,11 +96,11 @@
   .contact .book {
     background: radial-gradient(
         ellipse at top,
-        rgba(50, 10, 87, 0.55),
+        rgba(79, 52, 41, 0.55),
         rgba(0, 0, 0, 0.75)
       ),
       radial-gradient(ellipse at bottom, rgba(70, 70, 70, 0.5), transparent);
-    font-family: "Smooch Sans", sans-serif;
+      font-family: "Unica One", cursive;
     color: rgb(221, 206, 206);
   }
   /* END CONTACT DESIGN */
@@ -109,11 +109,11 @@
   .projecten .book {
     background: radial-gradient(
         ellipse at top,
-        rgba(189, 147, 189, 0.55),
+        rgba(106, 79, 106, 0.55),
         rgba(0, 0, 0, 0.85)
       ),
       radial-gradient(ellipse at bottom, rgba(185, 154, 154, 0.5), transparent);
-    font-family: "Nothing You Could Do", cursive;
+      font-family: "Unica One", cursive;
     color: #212121;
   }
   /* END PROJECTEN DESIGN */
@@ -122,11 +122,11 @@
   .landscape .book {
     background: radial-gradient(
         ellipse at top,
-        rgba(2, 95, 18, 0.55),
+        rgba(33, 32, 65, 0.55),
         rgba(0, 0, 0, 0.75)
       ),
       radial-gradient(ellipse at bottom, rgba(70, 70, 70, 0.5), transparent);
-    font-family: "Fredericka the Great", cursive;
+      font-family: "Unica One", cursive;
     color: rgb(247, 229, 192);
   }
   /* END LANDSCAPE DESIGN */
@@ -135,11 +135,11 @@
   .writing .book {
     background: radial-gradient(
         ellipse at top,
-        rgba(94, 15, 6, 0.76),
+        rgba(82, 35, 30, 0.76),
         rgba(0, 0, 0, 0.75)
       ),
       radial-gradient(ellipse at bottom, rgba(70, 70, 70, 0.5), transparent);
-    font-family: "Lora", serif;
+      font-family: "Unica One", cursive;
     color: rgb(216, 191, 191);
   }
   /* END CREATIVE WRITING */
@@ -148,11 +148,11 @@
   .web .book {
     background: radial-gradient(
         ellipse at top,
-        rgba(255, 255, 255, 0.63),
+        rgba(223, 213, 213, 0.63),
         rgba(0, 0, 0, 0.75)
       ),
       radial-gradient(ellipse at bottom, rgba(70, 70, 70, 0.5), transparent);
-    font-family: "Inconsolata", monospace;
+      font-family: "Unica One", cursive;
     color: #333;
   }
   /* END WEB DESIGN */

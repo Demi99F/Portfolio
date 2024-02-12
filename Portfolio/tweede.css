@@ -2,7 +2,6 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'Quicksand', sans-serif;
 }
 
 body{
@@ -27,7 +26,6 @@ body{
 	height: 100%;
 	left: 0;
 	top: 0;
-	background: url("images/flowers.jpg") no-repeat center;
 	background-size: cover;
 	filter: blur(50px);
 	z-index: -1;
@@ -44,7 +42,7 @@ body{
 }
 
 .left{
-	background: url("images/db.jpg") no-repeat center;
+	background: url("images/contact.png") no-repeat center;
 	background-size: cover;
 	height: 100%;
 }
@@ -68,7 +66,7 @@ h2:after{
     height: 4px;
     width: 50px;
     border-radius: 2px;
-    background-color: #5c864c;
+    background-color: #252439;
 }
 
 .field{
@@ -93,7 +91,7 @@ textarea{
 .btn{
 	width: 100%;
 	padding: 0.5rem 1rem;
-	background-color: #5c864c;
+	background-color: #252439;
 	color: #fff;
 	font-size: 1.1rem;
 	border: none;
